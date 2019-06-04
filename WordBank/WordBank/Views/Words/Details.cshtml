@@ -1,0 +1,58 @@
+﻿@model WordBank.Models.Word
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Word</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.User.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WordText)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WordText)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CteateDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CteateDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsMain)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsMain)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

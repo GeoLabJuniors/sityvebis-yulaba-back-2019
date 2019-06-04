@@ -1,0 +1,16 @@
+C:\Users\datviti\source\repos\WordBank\Domain\bin\Debug\Domain.dll.config
+C:\Users\datviti\source\repos\WordBank\Domain\bin\Debug\Domain.dll
+C:\Users\datviti\source\repos\WordBank\Domain\bin\Debug\Domain.pdb
+C:\Users\datviti\source\repos\WordBank\Domain\bin\Debug\EntityFramework.dll
+C:\Users\datviti\source\repos\WordBank\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\datviti\source\repos\WordBank\Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\datviti\source\repos\WordBank\Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\datviti\source\repos\WordBank\Domain\bin\Debug\EntityFramework.xml
+C:\Users\datviti\source\repos\WordBank\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\datviti\source\repos\WordBank\Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\datviti\source\repos\WordBank\Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\datviti\source\repos\WordBank\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\datviti\source\repos\WordBank\Domain\obj\Debug\Domain.csproj.CopyComplete
+C:\Users\datviti\source\repos\WordBank\Domain\obj\Debug\Domain.dll
+C:\Users\datviti\source\repos\WordBank\Domain\obj\Debug\Domain.pdb
+C:\Users\datviti\source\repos\WordBank\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
