@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data.Entity;
 using System.Linq;
 using System.Security.Claims;
@@ -11,6 +12,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
+using Newtonsoft.Json.Linq;
 using Repozitory;
 using SendGrid;
 using SendGrid.Helpers.Mail;
@@ -22,9 +24,9 @@ namespace WordBank
     {
         public async Task SendAsync(IdentityMessage message)
         {
-            string key = @"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";
+            string key = ConfigurationManager.AppSettings["yulaba"];
             var client = new SendGridClient(key);
-            var from = new EmailAddress("davit.bujiashvili@geolab.edu.ge","Davit Bujiashvili");
+            var from = new EmailAddress("daviti.bujiashvili.1@iliauni.edu.ge","daviti");
             var subject = message.Subject;
             var to = new EmailAddress(message.Destination, "New User");
             var plainTextContent = message.Body;
@@ -33,6 +35,9 @@ namespace WordBank
             await client.SendEmailAsync(email);
             // Plug in your email service here to send an email.
             //return Task.FromResult(0);
+
+
+
         }
     }
 
